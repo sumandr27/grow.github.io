@@ -7,7 +7,7 @@
 }
 
 
-label {
+#label {
     width: 240px;
     display: inline-block;
     text-align: right;
