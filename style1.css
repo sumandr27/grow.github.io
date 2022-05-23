@@ -6,6 +6,21 @@
     height: 1px;    
 }
 
+#lname {
+    border-radius: 10px;
+    background: rgb(246, 243, 243);
+    padding: 20px; 
+    width: 200px;
+    height: 1px;   
+}
+
+#name {
+    border-radius: 10px;
+    background: rgb(246, 243, 243);
+    padding: 20px; 
+    width: 200px;
+    height: 1px;   
+}
 
 #label {
     width: 240px;
