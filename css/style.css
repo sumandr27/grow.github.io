@@ -290,7 +290,7 @@ section{
 }
 
 .home .content h3{
-    color: var(--black);
+    color: black;
     font-size: 3rem;
 }
 
