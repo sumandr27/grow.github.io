@@ -299,7 +299,7 @@ section{
 }
 
 .home .content p{
-    color:var(--light-color);
+    color:black;
     font-size: 1.7rem;
     padding:1rem 0;
     line-height: 1.8;
