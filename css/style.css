@@ -290,12 +290,12 @@ section{
 }
 
 .home .content h3{
-    color:var(--black);
+    color: orangered;
     font-size: 3rem;
 }
 
 .home .content h3 span{
-    color:var(--orange);
+    color:blueviolet;
 }
 
 .home .content p{
