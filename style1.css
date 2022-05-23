@@ -5,3 +5,10 @@
     width: 200px;
     height: 15px;    
 }
+
+
+label {
+    width: 240px;
+    display: inline-block;
+    text-align: right;
+}
