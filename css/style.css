@@ -290,16 +290,16 @@ section{
 }
 
 .home .content h3{
-    color: orangered;
+    color: var(--black);
     font-size: 3rem;
 }
 
 .home .content h3 span{
-    color:blueviolet;
+    color:var(--orange);
 }
 
 .home .content p{
-    color:black;
+    color:var(--light-color);
     font-size: 1.7rem;
     padding:1rem 0;
     line-height: 1.8;
