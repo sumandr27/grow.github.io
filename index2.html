@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        #rcorners1 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+
+#rcorners3 {
+  border-radius: 25px;
+  background: url(paper.gif);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+    </style>
     <body style="background-color:rgb(196, 240, 243);"></body>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style1.css">
             <h3>enter here which crop are you growing</h3>
-            <form action="/action_page.php">
+            <p>Rounded corners for an element with a specified background color:</p>
+            <p id="rcorners1"><form action="/action_page.php">
                 <label for="fname">crop name:</label><br>
                 <input type="text" id="fname" name="fname" value=""><br>
                 <label for="lname">crop quantity:</label><br>
@@ -18,7 +46,7 @@
                     <label for="birthday">crop planting date:</label>
                     <input type="date" id="birthday" name="birthday"><br><br>
                     <input type="submit">
-                  </form>
+                  </form></p>
                   <form action="/action_page.php">
                     <label for="birthday">crop harvesting date:</label>
                     <input type="date" id="birthday" name="birthday">
